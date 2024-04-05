@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luffytaro - Contacto</title>
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- CSS-->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -56,11 +59,24 @@
     .card-header h5 {
       margin-bottom: 0;
     }
+    .footer {
+     position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #b4d4ff;
+     color: #238636;
+     text-align: center;
+      padding: 20px 0;
+    }
+    a {
+    cursor: pointer; /* mouse cambia a manito */
+    }
   </style>
+  <!--HTML-->
 </head>
 <body>
-
-  <!-- Navbar -->
+  <!-- Barra de item -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="/images/logos/Screenshot_1-removebg-preview.png" alt="Luffytaro"></a>
@@ -86,7 +102,7 @@
     </div>
   </nav>
 
-<!-- Contenido principal -->
+<!-- Tarjetas de contacto (principal) -->
 <div class="container mt-5">
   <h1 class="text-center mb-4">Contacto</h1>
   
@@ -97,7 +113,7 @@
           <h5 class="mb-0">Dirección</h5>
         </div>
         <div class="card-body">
-          <p class="card-text">Los Nohal, 1234</p>
+          <p class="card-text">Los Nogales, 1234</p>
           <p class="card-text">Santiago, Chile</p>
         </div>
       </div>
@@ -132,9 +148,9 @@
   <div class="container">
     <h5 class="mb-3">Redes sociales</h5>
     <ul class="list-unstyled">
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
+      <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
     </ul>
     <h5 class="mb-3">Horario de atención</h5>
     <ul class="list-unstyled mb-0">
@@ -144,9 +160,5 @@
     </ul>
   </div>
 </footer>
-<!-- Bootstrap JS y jQuery (si es necesario) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
